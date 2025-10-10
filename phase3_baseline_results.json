@@ -1,0 +1,19 @@
+{
+  "phase": "Phase 3 - Baseline Models",
+  "feature_count": 155,
+  "training_samples": 75000,
+  "models": {
+    "xgboost": {
+      "smape": 66.43897702615386
+    },
+    "random_forest": {
+      "smape": 71.54090787396866
+    }
+  },
+  "best_model": {
+    "name": "XGBoost",
+    "smape": 66.43897702615386
+  },
+  "submission_file": "dataset/submission_xgboost.csv",
+  "features_used": "14 numeric + encoded ipq_unit"
+}
