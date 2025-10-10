@@ -1,0 +1,11 @@
+PHASE 1 EDA RESULTS
+================================================================================
+
+Dataset Size: 75,000 training samples
+Price Range: $0.13 - $2796.00
+Mean Price: $23.65
+Median Price: $14.00
+Outliers: 7.37%
+Avg Text Length: 909 chars
+Avg Word Count: 148 words
+Image Availability: 100.00%
