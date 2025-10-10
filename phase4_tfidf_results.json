@@ -1,0 +1,10 @@
+{
+  "phase": "Phase 4 - TF-IDF Features",
+  "baseline_smape": 66.439,
+  "new_smape": 60.92995938511784,
+  "improvement": 5.509040614882153,
+  "improvement_percentage": 8.291877684616194,
+  "feature_count": 255,
+  "tfidf_dimensions": 100,
+  "submission_file": "dataset/submission_xgboost_tfidf.csv"
+}
