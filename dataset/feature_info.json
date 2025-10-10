@@ -1,0 +1,29 @@
+{
+  "numeric_features": [
+    "ipq_value",
+    "char_count",
+    "word_count",
+    "bullet_points",
+    "has_description",
+    "num_count",
+    "uppercase_words",
+    "avg_word_length",
+    "is_food",
+    "is_beverage",
+    "is_grocery",
+    "is_health",
+    "is_personal_care",
+    "is_household"
+  ],
+  "categorical_features": [
+    "ipq_unit"
+  ],
+  "text_features": [
+    "item_name"
+  ],
+  "image_features": [
+    "image_filename"
+  ],
+  "target": "price",
+  "log_target": "log_price"
+}
