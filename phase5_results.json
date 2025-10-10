@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 5 - Advanced Feature Engineering",
+  "baseline_smape": 66.439,
+  "tfidf_smape": 60.93,
+  "optimized_smape": 58.9426,
+  "phase5_smape": 58.37605182288523,
+  "total_improvement": 8.062948177114762,
+  "improvement_from_phase4b": 0.5665481771147682,
+  "target_achieved": false,
+  "gap_to_target": 3.3760518228852305,
+  "feature_count": 252,
+  "advanced_features_added": 34,
+  "fold_scores": [
+    59.12867572183678,
+    58.15112425255688,
+    58.5457597016957,
+    57.6658722780868,
+    58.388827160250024
+  ],
+  "submission_file": "dataset/submission_xgboost_phase5.csv"
+}
