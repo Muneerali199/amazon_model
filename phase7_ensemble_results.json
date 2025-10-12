@@ -1,0 +1,35 @@
+{
+  "phase": "Phase 7 - Advanced Ensemble",
+  "models": [
+    "XGBoost",
+    "LightGBM",
+    "CatBoost"
+  ],
+  "n_folds": 5,
+  "xgboost": {
+    "cv_score": 32.91423302880136,
+    "cv_std": 0.23739135672672174,
+    "weight": 0.3402670291743762
+  },
+  "lightgbm": {
+    "cv_score": 33.43805891269067,
+    "cv_std": 0.20667804899478295,
+    "weight": 0.3349365559617696
+  },
+  "catboost": {
+    "cv_score": 34.481994805755306,
+    "cv_std": 0.2310589314379463,
+    "weight": 0.32479641486385424
+  },
+  "ensemble": {
+    "cv_score": 33.44285962923665,
+    "improvement_vs_xgboost": -0.5286266004352882
+  },
+  "predictions": {
+    "count": 75000,
+    "min": 0.0,
+    "max": 625.681917631596,
+    "mean": 23.800145680403176,
+    "median": 20.278665075164984
+  }
+}
