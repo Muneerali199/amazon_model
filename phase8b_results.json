@@ -1,0 +1,28 @@
+{
+  "phase": "Phase 8b - XGBoost Optimization",
+  "best_cv": 59.485840753978955,
+  "best_config": "Config 4: Deep & Regularized",
+  "best_params": {
+    "objective": "reg:squarederror",
+    "learning_rate": 0.04,
+    "max_depth": 8,
+    "min_child_weight": 5,
+    "subsample": 0.75,
+    "colsample_bytree": 0.75,
+    "gamma": 0.2,
+    "reg_alpha": 0.4,
+    "reg_lambda": 2.5,
+    "n_estimators": 700,
+    "random_state": 42,
+    "tree_method": "hist"
+  },
+  "phase5_cv": 58.38,
+  "improvement": -1.1058407539789528,
+  "predictions": {
+    "count": 75000,
+    "min": -3.384586628526449,
+    "max": 690.74521484375,
+    "mean": 23.92423020993567,
+    "median": 19.18611030578613
+  }
+}
