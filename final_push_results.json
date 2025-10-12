@@ -1,0 +1,30 @@
+{
+  "method": "Config 4: Aggressive",
+  "cv_score": 59.54535230321859,
+  "all_configs": [
+    {
+      "name": "Config 4: Aggressive",
+      "cv": 59.54535230321859
+    },
+    {
+      "name": "Config 2: Different Seed",
+      "cv": 60.07910634953693
+    },
+    {
+      "name": "Config 1: Optimal Depth",
+      "cv": 60.813724495374466
+    },
+    {
+      "name": "Config 3: Conservative",
+      "cv": 61.983116927301694
+    }
+  ],
+  "ensemble_cv": 59.60105862245983,
+  "predictions": {
+    "count": 75000,
+    "min": -2.4011616140604017,
+    "max": 765.3802154541015,
+    "mean": 24.081963715126633,
+    "median": 19.242270660400393
+  }
+}
