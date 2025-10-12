@@ -1,0 +1,34 @@
+{
+  "phase": "Phase 11: Final Aggressive Attempt",
+  "strategies": [
+    "Interaction features (6 new)",
+    "Target encoding for categorical",
+    "3 models with different seeds (42, 123, 456)",
+    "Ensemble average predictions",
+    "Optimized hyperparameters (lr=0.04, depth=6)"
+  ],
+  "cv_mean": 60.39054224240067,
+  "cv_std": 0.02208382514738586,
+  "model_cvs": [
+    60.36022475576201,
+    60.412195637569525,
+    60.399206333870474
+  ],
+  "features": 262,
+  "hyperparameters": {
+    "n_estimators": 600,
+    "learning_rate": 0.04,
+    "max_depth": 6,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.5,
+    "tree_method": "hist",
+    "device": "cpu"
+  },
+  "comparison": {
+    "phase5_cv": 58.38,
+    "phase5_lb": 57.9,
+    "phase11_cv": 60.39054224240067,
+    "improvement": -2.0105422424006676
+  }
+}
