@@ -1,0 +1,18 @@
+{
+  "submission_file": "dataset/test_out.csv",
+  "method": "Ensemble of 4 models",
+  "num_models": 4,
+  "models_used": [
+    "Phase 3 (Baseline)",
+    "Phase 4a (TF-IDF)",
+    "Phase 4b (Optimized)",
+    "Phase 5 (Advanced)"
+  ],
+  "expected_smape": 58.37605182288523,
+  "predictions_count": 75000,
+  "price_min": 1.940027936976661,
+  "price_max": 783.550674580754,
+  "price_mean": 23.945282055841613,
+  "price_std": 18.023102357731936,
+  "validation_passed": true
+}
