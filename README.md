@@ -103,4 +103,4 @@ Participants are **STRICTLY NOT ALLOWED** to obtain prices from the internet, ex
 - Consider both textual features (catalog_content) and visual features (product images)
 - Explore feature engineering techniques for text and image data
 - Consider ensemble methods combining different model types
-- Pay attention to outliers and data preprocessing
+- Pay attention to outliers and data preprocessing 
